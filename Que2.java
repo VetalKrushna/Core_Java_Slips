@@ -1,0 +1,20 @@
+/*2. Write a Program to print all even numbers in an array of ‘n’
+elements. (use command line arguments).*/
+package First;
+
+public class Que2 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Even numbers:");
+		
+		 for(int i=0;i<args.length;i++) 
+		 {
+			 int n=Integer.parseInt(args[i]);
+			 if(n%2==0)
+				 System.out.print(" "+args[i]);
+		 }
+	}
+
+
+}
